@@ -1,137 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="58f44a09-68bd-449a-b237-2e2a8460c771" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BAEKJOON.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj10026.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1003.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1012.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1013.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1021.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1026.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1026_advanced.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj10282.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1059.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1072.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1074.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj10773.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj10799.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1080.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj10816.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj10844.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1092.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1149.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1197.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1238.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1302.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1325.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1339.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1439.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1461.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1475.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1495.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1516.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1541.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1543.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1629.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1654.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1655.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1676.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1697.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1715.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1717.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1744.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1753.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1758.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1780.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1781.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1789.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1806.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1904.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1911.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1915.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1918.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1926.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1932.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1934.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1935.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1940.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1946.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1978.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1987.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1991.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1992.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2004.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2012.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2014.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2042.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2056.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2089.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2110.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2156.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2164.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2167.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2193.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2212.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2217.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2230.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2437.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2480.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2484.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2493.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2502.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2504.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2573.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2579.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2655.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2745.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj2751.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj3184.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj3273.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj3273_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj3986.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj4179.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj4195.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj4796.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj4949.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj5014.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj5052.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj5430.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj5972.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj6118.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj6198.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj6588.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj6593.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj7562.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj7569.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj7576.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj8979.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj9037.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj9237.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj9251.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj9633.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2OPjkVsnibZvrcqO4x6vwEz3Ahc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="BOJ_2533_사회망_서비스" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bj1021.BOJ_2533_사회망_서비스" />
+      <module name="BAEKJOON" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bj1021.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BOJ_2533_사회망_서비스" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -142,6 +77,11 @@
       <option name="presentableId" value="Default" />
       <updated>1681469261311</updated>
       <workItem from="1681469262345" duration="76000" />
+      <workItem from="1681470538371" duration="536000" />
+      <workItem from="1681548798019" duration="1787000" />
+      <workItem from="1681559073990" duration="25000" />
+      <workItem from="1681559119920" duration="392000" />
+      <workItem from="1681559548577" duration="138000" />
     </task>
     <servers />
   </component>
