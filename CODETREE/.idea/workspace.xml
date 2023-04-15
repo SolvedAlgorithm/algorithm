@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd1d2f12-4576-4a0b-a953-08766c5f3949" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../BAEKJOON/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BAEKJOON/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BAEKJOON/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BAEKJOON/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BAEKJOON/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5cfd9a9c-7fc0-4ea9-b7e6-bdb056cc468c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/CODETREE.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +14,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2OSlxppJRbgMEnyOkOqEDgwSZQR" />
+  <component name="ProjectId" id="2OSqTx3I7ChfPB6n8C1drbUIbYs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,10 +24,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
+    "last_opened_file_path": "D:/git_seunghee114/algorithm/CODETREE",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -40,13 +34,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dd1d2f12-4576-4a0b-a953-08766c5f3949" name="Changes" comment="" />
-      <created>1681562115184</created>
+      <changelist id="5cfd9a9c-7fc0-4ea9-b7e6-bdb056cc468c" name="Changes" comment="" />
+      <created>1681564341817</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1681562115184</updated>
-      <workItem from="1681562116328" duration="599000" />
-      <workItem from="1681563377713" duration="310000" />
+      <updated>1681564341817</updated>
+      <workItem from="1681564342949" duration="17000" />
     </task>
     <servers />
   </component>
