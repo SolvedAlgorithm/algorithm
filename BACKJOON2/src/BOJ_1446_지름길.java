@@ -2,8 +2,11 @@ import java.io.BufferedReader;
 import java.io.IOError;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.sql.Array;
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.PriorityQueue;
+import java.util.Queue;
 /**
  * D 킬로미터 길이의 고속도로를 지난다.
  * 고속도로에는 일방통행인 지름길이 존재한다.
@@ -22,28 +25,19 @@ import java.util.PriorityQueue;
  * 입력으로 들어오는 지름길의 거리가 지름길의 끝 값 - 지름길의 시작 값보다 크면 넣지 않는다.
  *
  * PQ에서의 Edge(end, dist) : 0에서부터 end까지 가는데 dist만큼의  거리라는 의미
- * 우선순위는 end를 기준으로 한다. dist 배열을 update할 때, end가 작은 것부터 update 해야 나중에 영향을 미치지 않을 수 있다.
  *
  *
  * */
 public class BOJ_1446_지름길 {
     static int N, D;
     static int[] dist;
-    static class Edge implements Comparable<Edge>{
+    static class Edge{
         int end, dist;
         public Edge(int end, int dist){
             this.end = end;
             this.dist = dist;
         }
-        public int compareTo(Edge oth){
-            if(this.end > oth.end){
-                return 1;
-            }else if(this.end == oth.end){
-                return 0;
-            }else{
-                return -1;
-            }
-        }
+
     }
     static ArrayList<ArrayList<Edge>> adj;
     public static void main(String[] args) throws IOException {
@@ -67,7 +61,7 @@ public class BOJ_1446_지름길 {
             adj.get(start).add(new Edge(end, distance));
         }
 
-        PriorityQueue<Edge> PQ = new PriorityQueue<>();
+        Queue<Edge> PQ = new ArrayDeque<>();
         PQ.add(new Edge(0, 0));
         dist[0] = 0;
         while(!PQ.isEmpty()){
