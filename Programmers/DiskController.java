@@ -1,5 +1,5 @@
 import java.util.PriorityQueue;
-class Solution {
+class 단어변환 {
     public int solution(int[][] jobs) {
         int answer = 0;
         PriorityQueue<Work> workT = new PriorityQueue<>();
