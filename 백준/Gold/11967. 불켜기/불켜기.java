@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.reflect.Array;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Queue;
@@ -47,40 +46,38 @@ public class Main {
     }
     static void BFS(){
         Queue<Point> Q = new ArrayDeque<>();
-        Queue<Point> nQ = new ArrayDeque<>();
         visit = new boolean[N + 1][N + 1];
         turn = new boolean[N + 1][N + 1];
         visit[1][1] = true;
         turn[1][1] = true;
         Q.add(new Point(1, 1));
-        while (true) {
+        while (!Q.isEmpty()) {
             int temp = 0;       // temp : 들어갈 수 있는 방의 개수
-            while (!Q.isEmpty()) {
+            int size = Q.size();
+            for (int s = 0; s < size; s++) {
                 Point pnt = Q.poll();
-                if (!turn[pnt.x][pnt.y]){
-                    nQ.add(pnt);
+                if (!turn[pnt.x][pnt.y]) {  // 불이 안켜져있으면
+                    Q.add(pnt);             // 다시 큐에 넣는다.
                     continue;
                 }
-                temp ++;
-                // 불 켜기
-                ArrayList<Point> array = adj.get(pnt.x).get(pnt.y);
-                for (int i = 0; i < array.size(); i++) {
-                    turn[array.get(i).x][array.get(i).y] = true;
+                temp++;     // 불이 켜져있으니까 들어갈 수 있는 방
+                // 현재 방에서 켤 수 있는 방의 불 켜기
+                ArrayList<Point> tp = adj.get(pnt.x).get(pnt.y);
+                for (int i = 0; i < tp.size(); i++) {
+                    turn[tp.get(i).x][tp.get(i).y] = true;
                 }
-                // 인접 방 nQ에 넣기
+                // 현재 방에서 인접한 방을 방문하기
                 for (int k = 0; k < 4; k++) {
                     int nx = pnt.x + di[k];
                     int ny = pnt.y + dj[k];
                     if (nx < 1 || ny < 1 || nx > N || ny > N || visit[nx][ny]) {
                         continue;
                     }
-                    nQ.add(new Point(nx, ny));
                     visit[nx][ny] = true;
+                    Q.add(new Point(nx, ny));
                 }
             }
-            if (temp == 0) break;   // 들어갈 수 있는 방이 없으면 끝난 것
-            Q = nQ;
-            nQ = new ArrayDeque<>();
+            if (temp == 0) break;
         }
     }
 
