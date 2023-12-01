@@ -28,12 +28,8 @@ class Solution {
         for(int i = 0; i < adj.get(node).size(); i++){
             int near = adj.get(node).get(i);
             if(info[near] == 0 && (visit[near][0] == 0 && visit[near][1] == 0)) {   // 양인 경우
-                // 방문 체크
-                if(visit[near][0] == sheep+1 && visit[near][1] == wolf) continue;
                 recursion(near, sheep+1, wolf, deepcopy(visit), info);
             }else if(info[near] == 1 && (visit[near][0] == 0 && visit[near][1] == 0)){  // 늑대인 경우
-                // 방문 체크
-                if(visit[near][0] == sheep && visit[near][1] == wolf + 1) continue;
                 if(sheep > wolf + 1){
                     recursion(near, sheep, wolf+1, deepcopy(visit), info);
                 }
