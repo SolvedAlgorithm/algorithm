@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayDeque;
+import java.util.Arrays;
 import java.util.Queue;
 
 public class Main {
@@ -13,15 +14,20 @@ public class Main {
         T = Integer.parseInt(inArr[0]);
         A = Integer.parseInt(inArr[1]);
         B = Integer.parseInt(inArr[2]);
-        int answer = bfs(new int[]{A, B});
+        int answer = 0;
+        if (T % A == 0 || T % B == 0 || T % (A + B) == 0) {
+            answer = T;
+        } else {
+            answer = bfs(new int[]{A, B});
+        }
         System.out.println(answer);
     }
 
     static int bfs(int[] num) {
         Queue<int[]> Q = new ArrayDeque<>();
-        // visit[t][0] : t 포만감을 만드는데 물을 안마셨다 
-        // visit[t][1] : t 포만감을 만드는데 물을 마셨다 
-        boolean[][] visit = new boolean[T + 1][2]; 
+        // visit[t][0] : t 포만감을 만드는데 물을 안마셨다
+        // visit[t][1] : t 포만감을 만드는데 물을 마셨다
+        boolean[][] visit = new boolean[T + 1][2];
         // 포만감 0은 항상 가능
         visit[0][0] = true;
         visit[0][1] = true;
